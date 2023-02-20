@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Maquette DSI</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <img id = "logo" src="img/DSI.png" alt="">
+                <li>NOS FORMATIONS</li>
+                <li>NOUS RECRUTONS</li>
+                <li>NOS METIERS</li>
+                <li>VOS AVANTAGES</li>
+                <li>NOUS CONNAITRE</li>
+                <li>ACTUALITES</li>
+                <li>NOUS CONTACTER</li>
+            </ul>
+        </nav>
+        <label class="mobile">
+            <input type="checkbox" name="" id="">
+            <div class="burger"><i class="fa-solid fa-bars"></i></div>
+            <div class="menuburger">
+                <ul>
+                    <li>NOS FORMATIONS</li>
+                    <li>NOUS RECRUTONS</li>
+                    <li>NOS METIERS</li>
+                    <li>VOS AVANTAGES</li>
+                    <li>NOUS CONNAITRE</li>
+                    <li>ACTUALITES</li>
+                    <li>NOUS CONTACTER</li>
+                </ul>
+            </div>
+        </label>
+    </header>
+    <section id="cda">
+            <div id="section_left">
+                <div>
+                    <h1><span>CDA</span> SOPHIA</p>2023</h1>
+                </div>
+                <div>
+                    <p>Notre organisation peut aider les employeurs et les employés à naviguer sur les questions liées au handicap au travail et à trouver des solutions et à créer un environnement de travail plus inclusif.</p>
+                </div>                
+            </div>
+            <div id="section_right">
+                <img src="img/reunion.png" alt="">
+            </div>
+    </section>
+    <div class="card">
+        <div class="button_list">
+           <button class="btn_orange">QU'EST CE QU'UNE ENTREPRISE ADAPTEE?</button>
+           <button class="btn_blue">LE ROLE DU REFERENT HANDICAP</button>
+           <button class="btn_green">METHODE D'INTEGRATION</button>
+           <button class="btn_grey">PARTICULARITE DU RECRUTEMENT</button>
+        </div>
+        <div class="button_formation">
+            <button>DéCOUVREZ NOS FORMATIONS</button>
+        </div>
+        <div class="button_list">
+            <button class="btn_blue">LE MAINTIEN DANS L'EMPLOI</button>
+            <button class="btn_grey">L'OETH</button>
+            <button class="btn_orange">LE HANDICAP AU TRAVAIL</button>
+            <button class="btn_green">LE HANDICAP</button>
+        </div>
+    </div>
+    <section>
+        <div class="chiffres">
+            <div class="chiffre_element">
+                <div class = vector>
+                    <p><span>32</span> M€ de CA</p>
+                </div>
+                <div class = acces>
+                    <p><span>78%</span> de salariés en situation de handicap</p>
+                </div>
+                <div class = fleche>
+                    <p><span>15%</span> de croissance par an</p>
+                </div>
+            </div>
+            <div class="pie">
+                <img src="img/Pie.png" alt="">
+            </div>
+            <div class="chiffre_element">
+                <div class= user>
+                    <p><span>1185</span> employés</p>
+                </div>   
+                <div class = board>
+                    <p><span>177</span> embauches en 2020</p>
+                </div>   
+                <div class = cake>
+                    <p><span>27</span> ans d'expérience</p>
+                </div>
+            </div>  
+        </div>
+    </section>
+</body>
+<footer>
+    <div class="contact">
+        <h2>CONTACTEZ NOUS</h2>
+        <p>80 Route des Lucioles <br>Les espaces de Sophia <br>Bâtiment K <br>06560 VALBONNE</p>
+        <P>Tél: 05 62 74 10 00</P>
+        <p>accueil@dsi-ap.com</p>
+        <div>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <form action="/ma-page-de-contact" method="post">
+            <label for="name">Nom Prénom</label>
+            <input type="text" id="name" name="user_name" placeholder="Nom Prénom" size="50">
+            <label for="enterprise">Entreprise</label>
+            <input type="enterprise" id="enterprise" name="user_enterprise" placeholder="Entreprise">
+            <label for="mail">Email</label>
+            <input type="email" id="mail" name="user_mail" placeholder="Email">
+            <button class="send">Envoyer</button>
+        </form> 
+    </div>
+</footer>
+
+</html>
