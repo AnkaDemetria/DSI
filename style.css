@@ -287,11 +287,6 @@ input{
         color:#fafafa;
         position: relative;
     }
-    .mobile{
-        display:block;
-        color:#fafafa;
-        position: relative;
-    }
    .fa-bars{
     color:#fafafa;
     }
@@ -315,17 +310,8 @@ input{
         position:fixed;
         top: 0;
         left: 0;
-        transition: 0.5s;
     }
-    .mobile input{
-        appearance: none;
-    }
-    .mobile input:checked ~ .menuburger{
-        height: 100vh;
-    }
-    .mobile input:checked ~ .burger{
-        appearance: none;
-    } 
+ 
     .card{
         background-color: white;
     }
