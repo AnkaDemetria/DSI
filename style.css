@@ -121,7 +121,13 @@ h1{
 }
 
 /**************************************CAMEMBERT****************************************/
+.section_chiffres{
+    display: flex;
+    justify-content: center;    
+}
+
 .chiffres{
+    display: flex;
     color: white;
     background: linear-gradient(to right, grey, white, grey);
     display: flex;
@@ -287,6 +293,11 @@ input{
         color:#fafafa;
         position: relative;
     }
+    .mobile{
+        display:block;
+        color:#fafafa;
+        position: relative;
+    }
    .fa-bars{
     color:#fafafa;
     }
@@ -310,8 +321,21 @@ input{
         position:fixed;
         top: 0;
         left: 0;
+        transition: 0.5s;
     }
- 
+    .menuburger a{
+        text-decoration: none;
+        color: white;    
+    }
+    .mobile input{
+        appearance: none;
+    }
+    .mobile input:checked ~ .menuburger{
+        height: 100vh;
+    }
+    .mobile input:checked ~ .burger{
+        appearance: none;
+    } 
     .card{
         background-color: white;
     }
