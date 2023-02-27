@@ -282,11 +282,11 @@ input{
     header{
         background-color: white;
     }
-    #logo{
-        justify-content: left;
-    }
     .menu>li{
         display:none;
+    }
+    .menu>li:nth-child(1){
+        display: flex;
     }
     .mobile{
         display:block;
