@@ -18,7 +18,7 @@ nav .menu{
     place-items: center; 
     justify-content: space-around;
 }
-a{
+li>a{
     text-decoration: none;
     color: black;
 }
@@ -237,14 +237,25 @@ footer{
     padding-bottom: 10px;
 }
 .contact>p{
-    padding-bottom: 10px;
+    padding: 15px 0px;
 }
-.contact>div>i{
+.contact>p>a{
+    text-decoration: none;
+    color:#fafafa;
+}
+.contact>div>a>i{
     background-color: white;
     border-radius: 50%;
     padding: 15px;
     margin-right: 5px;
     color: black;
+}
+adress{
+    font-style: normal;
+}
+footer a{
+    text-decoration: none;
+    color: #fafafa;
 }
 hr{
     transform: rotate(90deg);
@@ -282,16 +293,12 @@ input{
     header{
         background-color: white;
     }
+    .card,
     .menu>li{
         display:none;
     }
     .menu>li:nth-child(1){
         display: flex;
-    }
-    .mobile{
-        display:block;
-        color:#fafafa;
-        position: relative;
     }
     .mobile{
         display:block;
@@ -344,7 +351,8 @@ input{
         flex-direction: column;
     }
     .button_list {
-        flex-direction: column;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
         align-items: center;
     }
     .button_formation{
@@ -365,9 +373,6 @@ input{
         flex-wrap: wrap;
         align-items: center;
     }
-    /* .chiffre_element>p{
-        width: 50px;
-    } */
     footer{
         flex-wrap: wrap;
     }
@@ -383,4 +388,16 @@ input{
     .button_formation>button{
         font-size: large;
     }
+    .button_list>button{
+        width: 120px;
+        height: 120px;
+    }
+    .button_list>button:nth-child(odd){
+        margin-top: 80px;
+        margin-left:40px;
+    }
+    .button_list:nth-child(even){
+        margin-right: 10px;
+    }
+   
 }
